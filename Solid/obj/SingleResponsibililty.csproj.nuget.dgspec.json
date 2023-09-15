@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Stefan\\design_patterns_Udemy\\Solid\\Solid.csproj": {}
+    "D:\\Stefan\\design_patterns_Udemy\\Solid\\SingleResponsibililty.csproj": {}
   },
   "projects": {
-    "D:\\Stefan\\design_patterns_Udemy\\Solid\\Solid.csproj": {
+    "D:\\Stefan\\design_patterns_Udemy\\Solid\\SingleResponsibililty.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Stefan\\design_patterns_Udemy\\Solid\\Solid.csproj",
-        "projectName": "Solid",
-        "projectPath": "D:\\Stefan\\design_patterns_Udemy\\Solid\\Solid.csproj",
+        "projectUniqueName": "D:\\Stefan\\design_patterns_Udemy\\Solid\\SingleResponsibililty.csproj",
+        "projectName": "SingleResponsibililty",
+        "projectPath": "D:\\Stefan\\design_patterns_Udemy\\Solid\\SingleResponsibililty.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "D:\\Stefan\\design_patterns_Udemy\\Solid\\obj\\",
         "projectStyle": "PackageReference",

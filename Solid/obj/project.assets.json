@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\stef4\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROJECTS\\design_patterns_Udemy\\Solid\\SingleReponsibility.csproj",
-      "projectName": "SingleReponsibility",
-      "projectPath": "C:\\PROJECTS\\design_patterns_Udemy\\Solid\\SingleReponsibility.csproj",
-      "packagesPath": "C:\\Users\\stef4\\.nuget\\packages\\",
-      "outputPath": "C:\\PROJECTS\\design_patterns_Udemy\\Solid\\obj\\",
+      "projectUniqueName": "D:\\Stefan\\design_patterns_Udemy\\Solid\\SingleResponsibililty.csproj",
+      "projectName": "SingleResponsibililty",
+      "projectPath": "D:\\Stefan\\design_patterns_Udemy\\Solid\\SingleResponsibililty.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\Stefan\\design_patterns_Udemy\\Solid\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\stef4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
