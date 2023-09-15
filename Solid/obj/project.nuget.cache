@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qZ+TXCy9A56bxIhKNl6yORMuuHfhBwXzK0LOGXNhxRZiTn/rwnEhbhQtIqqY0LASBwqHjITtGYx7Gw44f41BJw==",
+  "dgSpecHash": "87o8uZqsuQtdR8AMp+oxuSy3KBoFDrNeluFbSbGzHiAxO0kHtmuskHm1t4pfQi15s0myKqMsqnSBVidaxfUf+A==",
   "success": true,
-  "projectFilePath": "C:\\PROJECTS\\design_patterns_Udemy\\Solid\\Solid.csproj",
+  "projectFilePath": "C:\\PROJECTS\\design_patterns_Udemy\\Solid\\SingleReponsibility.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

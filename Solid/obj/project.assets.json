@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROJECTS\\design_patterns_Udemy\\Solid\\Solid.csproj",
-      "projectName": "Solid",
-      "projectPath": "C:\\PROJECTS\\design_patterns_Udemy\\Solid\\Solid.csproj",
+      "projectUniqueName": "C:\\PROJECTS\\design_patterns_Udemy\\Solid\\SingleReponsibility.csproj",
+      "projectName": "SingleReponsibility",
+      "projectPath": "C:\\PROJECTS\\design_patterns_Udemy\\Solid\\SingleReponsibility.csproj",
       "packagesPath": "C:\\Users\\stef4\\.nuget\\packages\\",
       "outputPath": "C:\\PROJECTS\\design_patterns_Udemy\\Solid\\obj\\",
       "projectStyle": "PackageReference",
