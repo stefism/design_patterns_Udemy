@@ -1,0 +1,14 @@
+D:\Stefan\design_patterns_Udemy\DesignPatterns\OpenClose\bin\Debug\net6.0\OpenClose.exe
+D:\Stefan\design_patterns_Udemy\DesignPatterns\OpenClose\bin\Debug\net6.0\OpenClose.deps.json
+D:\Stefan\design_patterns_Udemy\DesignPatterns\OpenClose\bin\Debug\net6.0\OpenClose.runtimeconfig.json
+D:\Stefan\design_patterns_Udemy\DesignPatterns\OpenClose\bin\Debug\net6.0\OpenClose.dll
+D:\Stefan\design_patterns_Udemy\DesignPatterns\OpenClose\bin\Debug\net6.0\OpenClose.pdb
+D:\Stefan\design_patterns_Udemy\DesignPatterns\OpenClose\obj\Debug\net6.0\OpenClose.GeneratedMSBuildEditorConfig.editorconfig
+D:\Stefan\design_patterns_Udemy\DesignPatterns\OpenClose\obj\Debug\net6.0\OpenClose.AssemblyInfoInputs.cache
+D:\Stefan\design_patterns_Udemy\DesignPatterns\OpenClose\obj\Debug\net6.0\OpenClose.AssemblyInfo.cs
+D:\Stefan\design_patterns_Udemy\DesignPatterns\OpenClose\obj\Debug\net6.0\OpenClose.csproj.CoreCompileInputs.cache
+D:\Stefan\design_patterns_Udemy\DesignPatterns\OpenClose\obj\Debug\net6.0\OpenClose.dll
+D:\Stefan\design_patterns_Udemy\DesignPatterns\OpenClose\obj\Debug\net6.0\refint\OpenClose.dll
+D:\Stefan\design_patterns_Udemy\DesignPatterns\OpenClose\obj\Debug\net6.0\OpenClose.pdb
+D:\Stefan\design_patterns_Udemy\DesignPatterns\OpenClose\obj\Debug\net6.0\OpenClose.genruntimeconfig.cache
+D:\Stefan\design_patterns_Udemy\DesignPatterns\OpenClose\obj\Debug\net6.0\ref\OpenClose.dll
