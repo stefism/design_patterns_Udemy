@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Stefan\\design_patterns_Udemy\\Solid\\SingleResponsibililty.csproj": {}
+    "D:\\Stefan\\design_patterns_Udemy\\DesignPatterns\\SingleResponsibility\\SingleResponsibility.csproj": {}
   },
   "projects": {
-    "D:\\Stefan\\design_patterns_Udemy\\Solid\\SingleResponsibililty.csproj": {
+    "D:\\Stefan\\design_patterns_Udemy\\DesignPatterns\\SingleResponsibility\\SingleResponsibility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Stefan\\design_patterns_Udemy\\Solid\\SingleResponsibililty.csproj",
-        "projectName": "SingleResponsibililty",
-        "projectPath": "D:\\Stefan\\design_patterns_Udemy\\Solid\\SingleResponsibililty.csproj",
+        "projectUniqueName": "D:\\Stefan\\design_patterns_Udemy\\DesignPatterns\\SingleResponsibility\\SingleResponsibility.csproj",
+        "projectName": "SingleResponsibility",
+        "projectPath": "D:\\Stefan\\design_patterns_Udemy\\DesignPatterns\\SingleResponsibility\\SingleResponsibility.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Stefan\\design_patterns_Udemy\\Solid\\obj\\",
+        "outputPath": "D:\\Stefan\\design_patterns_Udemy\\DesignPatterns\\SingleResponsibility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

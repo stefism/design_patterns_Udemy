@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Stefan\\design_patterns_Udemy\\Solid\\SingleResponsibililty.csproj",
-      "projectName": "SingleResponsibililty",
-      "projectPath": "D:\\Stefan\\design_patterns_Udemy\\Solid\\SingleResponsibililty.csproj",
+      "projectUniqueName": "D:\\Stefan\\design_patterns_Udemy\\DesignPatterns\\OpenClose\\OpenClose.csproj",
+      "projectName": "OpenClose",
+      "projectPath": "D:\\Stefan\\design_patterns_Udemy\\DesignPatterns\\OpenClose\\OpenClose.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Stefan\\design_patterns_Udemy\\Solid\\obj\\",
+      "outputPath": "D:\\Stefan\\design_patterns_Udemy\\DesignPatterns\\OpenClose\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
