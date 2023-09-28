@@ -1,10 +1,15 @@
-﻿using System.Security.Authentication.ExtendedProtection;
-
-namespace DesignPatterns
+﻿namespace DesignPatterns
 {
     public class Person
     {
         public string Name, Position;
+
+        public class Builder : PersonJobBuilder<Builder>
+        {
+
+        }
+
+        public static Builder New => new Builder();
 
         public override string ToString()
         {
@@ -45,7 +50,8 @@ namespace DesignPatterns
     {
         public static void Main(string[] args)
         {
-
+            var me = Person.New.Called("Stefan").WorksAsA("Software developer").Build();
+            Console.WriteLine(me);
         }
     }
 }
