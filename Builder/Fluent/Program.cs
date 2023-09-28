@@ -12,7 +12,7 @@ namespace DesignPatterns
         }
     }
 
-    public abstract class  PersonBuilder
+    public abstract class PersonBuilder
     {
         protected Person person = new Person();
 
@@ -27,7 +27,7 @@ namespace DesignPatterns
         public SELF Called(string name)
         {
             person.Name = name;
-            return (SELF) this;
+            return (SELF)this;
         }
     }
 
@@ -37,7 +37,7 @@ namespace DesignPatterns
         public SELF WorksAsA(string position)
         {
             person.Position = position;
-            return (SELF) this; fg
+            return (SELF)this;
         }
     }
 
