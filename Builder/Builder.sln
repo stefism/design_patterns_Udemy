@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilderInheritanceWithRecursiveGenerics", "Fluent\FluentBuilderInheritanceWithRecursiveGenerics.csproj", "{20921D73-2EDB-4A06-BBF6-CBE2EF8CDCB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepwiseBuilder", "StepwiseBuilder\StepwiseBuilder.csproj", "{9179EC58-8B42-4493-9569-9B2484EC566C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalBuilder", "FunctionalBuilder\FunctionalBuilder.csproj", "{402074E6-0E1F-4880-BF82-4CCF63B17CF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{20921D73-2EDB-4A06-BBF6-CBE2EF8CDCB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20921D73-2EDB-4A06-BBF6-CBE2EF8CDCB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20921D73-2EDB-4A06-BBF6-CBE2EF8CDCB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9179EC58-8B42-4493-9569-9B2484EC566C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9179EC58-8B42-4493-9569-9B2484EC566C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9179EC58-8B42-4493-9569-9B2484EC566C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9179EC58-8B42-4493-9569-9B2484EC566C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{402074E6-0E1F-4880-BF82-4CCF63B17CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402074E6-0E1F-4880-BF82-4CCF63B17CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402074E6-0E1F-4880-BF82-4CCF63B17CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402074E6-0E1F-4880-BF82-4CCF63B17CF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
