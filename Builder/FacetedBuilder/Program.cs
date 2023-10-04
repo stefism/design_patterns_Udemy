@@ -21,11 +21,38 @@
         protected Person person = new Person();
 
         public PersonJobBuilder Works => new PersonJobBuilder(person);
+        public PersonAddressBuilder Lives => new PersonAddressBuilder(person);
+
+        public static implicit operator Person(PersonBuilder pb)
+        {
+            return pb.person;
+        }
     }
 
     public class PersonAddressBuilder : PersonBuilder
-    { 
+    {
+        public PersonAddressBuilder(Person person)
+        {
+            this.person = person;
+        }
 
+        public PersonAddressBuilder At(string streetAddress)
+        {
+            person.StreetAddress = streetAddress;
+            return this;
+        }
+
+        public PersonAddressBuilder WithPostcode(string postcode)
+        {
+            person.Postcode = postcode;
+            return this;
+        }
+
+        public PersonAddressBuilder In(string city)
+        {
+            person.City = city;
+            return this;
+        }
     }
 
     public class PersonJobBuilder : PersonBuilder
@@ -60,7 +87,11 @@
         static void Main(string[] args)
         {
             var pb = new PersonBuilder();
-            var person = pb.Works.At("Money").AsA("Engineer").Earning(123000);
+            Person person = pb
+                .Lives.At("123 London Road").In("London").WithPostcode("SW12AC")
+                .Works.At("Money").AsA("Engineer").Earning(123000);
+            
+            Console.WriteLine(person);
         }
     }
 }
