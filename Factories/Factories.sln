@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Object Tracking and Bulk Replacement", "Object Tracking and Bulk Replacement\Object Tracking and Bulk Replacement.csproj", "{3117911E-8E98-4C62-96D1-E8EE69B98A72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Factory", "Abstract Factory\Abstract Factory.csproj", "{384952ED-9119-450A-881B-5F9E6F97CB6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract Factory", "Abstract Factory\Abstract Factory.csproj", "{384952ED-9119-450A-881B-5F9E6F97CB6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract factory and OCP", "Abstract factory and OCP\Abstract factory and OCP.csproj", "{430411EA-EE1C-4EDF-97C0-A74475E667E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{384952ED-9119-450A-881B-5F9E6F97CB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{384952ED-9119-450A-881B-5F9E6F97CB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{384952ED-9119-450A-881B-5F9E6F97CB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430411EA-EE1C-4EDF-97C0-A74475E667E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430411EA-EE1C-4EDF-97C0-A74475E667E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430411EA-EE1C-4EDF-97C0-A74475E667E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430411EA-EE1C-4EDF-97C0-A74475E667E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -46,27 +46,31 @@
 
     public class HotDrinkMachine
     {
-        public enum AvailableDrink
-        {
-            Coffee, Tea
-        }
-
-        private Dictionary<AvailableDrink, IHotDrinkFactory> factories = new Dictionary<AvailableDrink, IHotDrinkFactory>();
-
+        private List<Tuple<string, IHotDrinkFactory>> factories = new List<Tuple<string, IHotDrinkFactory>> ();
         public HotDrinkMachine()
         {
-            foreach (AvailableDrink drink in Enum.GetValues(typeof(AvailableDrink)))
+            foreach(var t in typeof(HotDrinkMachine).Assembly.GetTypes())
             {
-                var factory = (IHotDrinkFactory)Activator.CreateInstance(
-                    Type.GetType("DesignPatterns." + Enum.GetName(typeof(AvailableDrink), drink) + "Factory"));
+                if(typeof(IHotDrinkFactory).IsAssignableFrom(t) && !t.IsInterface)
+                {
+                    var typeName = t.Name.Replace("Factory", string.Empty);
+                    var factoryName = (IHotDrinkFactory)Activator.CreateInstance(t);
+                    var tuple = Tuple.Create(typeName, factoryName);
 
-                factories.Add(drink, factory);
+                    factories.Add(tuple);
+                }
             }
         }
 
-        public IHotDrink MakeDrink(AvailableDrink drink, int amount)
+        public IHotDrink MakeDrink()
         {
-            return factories[drink].Prepare(amount);
+            Console.WriteLine("Available drinks:");
+
+            for (int i = 0; i < factories.Count; i++)
+            {
+                var tuple = factories[i];
+                Console.WriteLine($"{i}: {tuple.Item1}");
+            }
         }
     }
 
